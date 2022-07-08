@@ -19,5 +19,7 @@ public class HeadTailGame{
 	    }
 	}
 	System.out.println("Heads: "+Heads+", Tails: "+Tails);
+	if(Heads>Tails) System.out.println("You won");
+	else System.out.println("You lost");
     }
 } 
