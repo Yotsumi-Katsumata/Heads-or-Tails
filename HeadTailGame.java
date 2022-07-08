@@ -1,8 +1,16 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class HeadTailGame{
     public static void main(String args[]){
 	int Heads=0, Tails=0;
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("Who are you?");
+	System.out.print("> ");
+	String name=sc.next();
+	System.out.println("Hello, "+name+"!");
+	
 	System.out.println("Tossing a coin...");
 	Random rand=new Random();
 
